@@ -93,6 +93,7 @@
 ### 5. Compare accuracy before and after improvements. 
  <div align="justify">
   </div>
+
 ### 6. Which technique contributed most to improvement? 
  <div align="justify">
   </div>
