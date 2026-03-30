@@ -74,38 +74,46 @@
 
 ### 1. What signs indicated overfitting in your first model? 
  <div align="justify">
+   The first model overfitted since the training accuracy was almost 100%, but the validation accuracy was lower, about 95 to 96 percent. Also, the validation loss began to rise while the training loss kept going down. This means the model was memorizing the training data instead of learning to generalize to new data.
   </div>
   
 ### 2. How did data augmentation affect validation accuracy? 
  <div align="justify">
+   After using data augmentation, the validation accuracy became more stable and closer to the training accuracy. Rather than having a big gap, both accuracies improved steadily and stayed close. This means the model generalized better and worked more consistently on new data.
   </div>
 
 ## Model Improvement 
 
 ### 3. What is the purpose of dropout layers? 
  <div align="justify">
+   Dropout layers help stop overfitting by randomly turning off some neurons during training. This makes the model learn more general patterns instead of depending too much on specific features. As a result, the model becomes stronger and works better with new data.
   </div>
   
 ### 4. Why does data augmentation improve generalization? 
  <div align="justify">
+   Data augmentation helps models generalize better by making variations of existing images, like flipping, rotating, or zooming them. This adds diversity to the dataset without needing new data. Because of this, the model can recognize objects in different situations and works better with real-world images.
   </div>
 
 ## Performance Comparison 
 
 ### 5. Compare accuracy before and after improvements. 
  <div align="justify">
+   Before improvements, the model had nearly 100% training accuracy but lower validation accuracy (~95–96%), indicating overfitting. After data augmentation and enhancements, training and validation accuracy aligned around 85–90%, reflecting more balanced and reliable performance.
   </div>
 
 ### 6. Which technique contributed most to improvement? 
  <div align="justify">
+   Data augmentation was the biggest factor in the improvement. By increasing data variability, it helped reduce overfitting and allowed the model to generalize better. This led to more stable validation accuracy and better overall performance.
   </div>
 
 ## Deployment & Application 
 
 ### 7. Why is saving the model important?
  <div align="justify">
+   Saving the model is important because it lets you reuse the trained model without having to train it again. It keeps the learned patterns, weights, and structure so you can load the model later for making predictions, continuing training, or using it in applications.
   </div>
   
 ### 8. How can this model be deployed in a real-world system?
  <div align="justify">
+   The model can be deployed in a real-world system by integrating it into a mobile or web application. For example, users can upload or capture an image, and the system will classify it using the trained model. This can be done using tools like TensorFlow Lite for mobile apps or TensorFlow.js for web applications, enabling real-time image classification.
   </div>
