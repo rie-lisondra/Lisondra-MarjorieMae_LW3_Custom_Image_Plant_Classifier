@@ -1,5 +1,7 @@
 # Lisondra-MarjorieMae_LW3_Custom_Image_Plant_Classifier
 
+###### [Google Collab Link](https://colab.research.google.com/drive/19Q3ic3LPy_B2PbEl40bFoXcDLwfViQlI?usp=sharing)
+
 ---
 
 ## Activity 3: Guide Questions (Student Reflection & Explanation) 
